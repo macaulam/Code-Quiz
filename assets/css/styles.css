@@ -1,0 +1,107 @@
+body {
+  font-family: Arial;
+  font-size: 120%;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(250, 197, 50);
+}
+
+a, #toggleSound {
+  color: #080708;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover, #toggleSound:hover {
+  color: #8570a5;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #360086;
+  border-radius: 5px;
+  padding: 20px 50px;
+  color: white;
+  border: 0;
+}
+
+button:hover {
+  background-color: #8570a5;
+}
+
+.options button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #f3edfc;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.saved {
+  display: none;
+}
+
+.error{
+  display: none;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 100px;
+}
+
+#toggleSound {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
