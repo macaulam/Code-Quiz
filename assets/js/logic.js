@@ -23,7 +23,6 @@ const feedbackEl = document.querySelector(".feedback")
 let soundOn = true;
 const  correctSound = new Audio ('./assets/sfx/correct.wav');
 const incorrectSound = new Audio ('./assets/sfx/incorrect.wav')
-
 let questionIndex = 0;
 let timeLeft = 60
 let intervalId = null
