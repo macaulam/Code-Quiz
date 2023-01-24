@@ -1,9 +1,9 @@
 const answersArray = []
-answersArray[0] = questionsArray[0].options[3];
-answersArray[1] = questionsArray[1].options[0];
-answersArray[2] = questionsArray[2].options[2];
-answersArray[3] = questionsArray[3].options[3];
-answersArray[4] = questionsArray[4].options[0];
+answersArray.push(questionsArray[0].options[3])
+answersArray.push(questionsArray[1].options[0])
+answersArray.push(questionsArray[2].options[2])
+answersArray.push(questionsArray[3].options[3])
+answersArray.push(questionsArray[4].options[0])
 
 const startBtn = document.querySelector('#start');
 const startScreen = document.querySelector('#start-screen')
