@@ -1,6 +1,5 @@
 const highScoresList = document.querySelector('#highscores');
 const clearBtn = document.querySelector('#clear');
-// call scores storage
 let savedScoreArray = JSON.parse(localStorage.getItem("score"))
 console.log(savedScoreArray)
 if (savedScoreArray.length > 1) {
@@ -17,7 +16,7 @@ savedScoreArray.sort((a, b) => {
     newLi.textContent = `${savedScoreArray.initials} with ${savedScoreArray.score} points`
     highScoresList.appendChild(newLi)
 }
-// Event Listener
+
 clearBtn.addEventListener("click", function (){
     localStorage.clear()
     highScoresList.remove()
